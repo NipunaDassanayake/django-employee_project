@@ -4,15 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fdc92ce-319b-4204-87c2-1074fc9c8ac1" name="Changes" comment="created the project app">
+    <list default="true" id="7fdc92ce-319b-4204-87c2-1074fc9c8ac1" name="Changes" comment="created the employee model and connected to postgres database">
+      <change afterPath="$PROJECT_DIR$/employee_register/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee_register/templates/employee_register/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee_register/templates/employee_register/employee_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee_register/templates/employee_register/employee_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee_register/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employeeProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/employeeProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employeeProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/employeeProject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee_register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_register/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_register/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +54,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.urls.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -85,12 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1752442120293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created the employee model and connected to postgres database">
+      <option name="closed" value="true" />
+      <created>1752489488993</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752489488993</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created the project" />
     <MESSAGE value="created the project app" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the project app" />
+    <MESSAGE value="created the employee model and connected to postgres database" />
+    <option name="LAST_COMMIT_MESSAGE" value="created the employee model and connected to postgres database" />
   </component>
 </project>
